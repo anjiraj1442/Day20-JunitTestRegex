@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridelabz.regex.JunitUserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-21T10:28:55" hostname="DESKTOP-20TB" time="0.047">
+<testsuite name="com.bridelabz.regex.JunitUserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-21T10:40:34" hostname="DESKTOP-20TB" time="0.048">
   <properties/>
-  <testcase name="givenFistName_ReturnTrue()" classname="com.bridelabz.regex.JunitUserRegistrationTest" time="0.047"/>
+  <testcase name="givenLastName_ReturnTrue()" classname="com.bridelabz.regex.JunitUserRegistrationTest" time="0.048"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
