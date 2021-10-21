@@ -14,10 +14,10 @@ import java.util.regex.Pattern;
 
 public class JunitUserRegistration {
 
-    public boolean firstName(String firstName) {
-       String regex = "^[A-Z]{1}[a-z]{2,}$";
+    public boolean mobileNumber(String mobileNumber) {
+       String regex = "^[0-9]{2}\\s{1}[0-9]{10}$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(firstName);
+        Matcher matcher = pattern.matcher(mobileNumber);
         return matcher.matches();
     }
 }
