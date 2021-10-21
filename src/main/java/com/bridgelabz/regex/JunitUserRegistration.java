@@ -14,10 +14,10 @@ import java.util.regex.Pattern;
 
 public class JunitUserRegistration {
 
-    public boolean lastName(String lastName) {
-       String regex = "^[A-Z]{1}[a-z]{2,}$";
+    public boolean emailId(String emailIds) {
+       String regex = "^[a-zA-Z-9]+([._+-]*[0-9A-Za-z]+)*@[a-zA-Z0-9]+.[a-zA-Z]{2,4}([.][a-z]{2,4})?$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(lastName);
+        Matcher matcher = pattern.matcher(emailIds);
         return matcher.matches();
     }
 }

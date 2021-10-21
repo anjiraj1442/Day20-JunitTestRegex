@@ -8,8 +8,8 @@ public class JunitUserRegistrationTest {
     JunitUserRegistration junitUserRegistration = new JunitUserRegistration();
 
     @Test
-    void givenLastName_ReturnTrue() {
-        boolean resutl = junitUserRegistration.lastName("Ardula");
+    void givenEmailId_ReturnTrue() {
+        boolean resutl = junitUserRegistration.emailId("anjirajardula@gmail.com");
         Assertions.assertTrue(resutl);
     }
 }
