@@ -14,10 +14,10 @@ import java.util.regex.Pattern;
 
 public class JunitUserRegistration {
 
-    public boolean emailId(String emailIds) {
-       String regex = "^[a-zA-Z-9]+([._+-]*[0-9A-Za-z]+)*@[a-zA-Z0-9]+.[a-zA-Z]{2,4}([.][a-z]{2,4})?$";
+    public boolean mobileNumber(String mobileNumber) {
+       String regex = "^([0-9]{2}\\s)?[6-9]{1}[0-9]{9}$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(emailIds);
+        Matcher matcher = pattern.matcher(mobileNumber);
         return matcher.matches();
     }
 }
