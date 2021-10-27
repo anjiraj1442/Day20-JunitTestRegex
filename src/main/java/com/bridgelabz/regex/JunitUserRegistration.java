@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 public class JunitUserRegistration {
 
     public boolean password(String password) {
-       String regex = "^[a-z]{8,}$";
+       String regex = "^[a-z](?=.*[A-Z]).{8,}$";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(password);
         return matcher.matches();

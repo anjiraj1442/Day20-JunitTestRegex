@@ -9,7 +9,7 @@ public class JunitUserRegistrationTest {
 
     @Test
     void givenPassWord_ReturnTrue() {
-        boolean resutl = junitUserRegistration.password("anjirajfgdfg");
+        boolean resutl = junitUserRegistration.password("anjAAirajfgdfg");
         Assertions.assertTrue(resutl);
     }
 }
