@@ -8,16 +8,16 @@ import java.util.regex.Pattern;
  *
  * @author : Anji Raj Ardula
  * @version :16.0
- * @since :21/10/2021
+ * @since :28/10/2021
  *
  */
 
 public class JunitUserRegistration {
 
-    public boolean mobileNumber(String mobileNumber) {
-       String regex = "^([0-9]{2}\\s)?[6-9]{1}[0-9]{9}$";
+    public boolean password(String password) {
+       String regex = "^[a-z]{8,}$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(mobileNumber);
+        Matcher matcher = pattern.matcher(password);
         return matcher.matches();
     }
 }

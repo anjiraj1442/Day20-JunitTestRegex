@@ -8,8 +8,8 @@ public class JunitUserRegistrationTest {
     JunitUserRegistration junitUserRegistration = new JunitUserRegistration();
 
     @Test
-    void givenMobileNumber_ReturnTrue() {
-        boolean resutl = junitUserRegistration.mobileNumber("91 8333877108");
+    void givenPassWord_ReturnTrue() {
+        boolean resutl = junitUserRegistration.password("anjirajfgdfg");
         Assertions.assertTrue(resutl);
     }
 }
