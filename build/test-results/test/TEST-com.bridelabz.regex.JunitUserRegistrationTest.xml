@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridelabz.regex.JunitUserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-27T18:41:18" hostname="DESKTOP-20TB" time="0.045">
+<testsuite name="com.bridelabz.regex.JunitUserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-27T18:45:20" hostname="DESKTOP-20TB" time="0.047">
   <properties/>
-  <testcase name="givenPassWord_ReturnTrue()" classname="com.bridelabz.regex.JunitUserRegistrationTest" time="0.045"/>
+  <testcase name="givenPassWord_ReturnTrue()" classname="com.bridelabz.regex.JunitUserRegistrationTest" time="0.047"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
